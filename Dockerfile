@@ -1,5 +1,13 @@
-FROM python:3.7
+# Copyright (c) Jupyter Development Team.
+# Distributed under the terms of the Modified BSD License.
+ARG BASE_CONTAINER=jupyter/scipy-notebook
+FROM $BASE_CONTAINER
+# Maintainer of the base container: LABEL maintainer="Jupyter Project <jupyter@googlegroups.com>"
 
-COPY requirements.txt ./
+USER $NB_UID
+COPY requirements.txt /tmp/
+RUN pip install --default-timeout=15000 --requirement /tmp/requirements.txt && \
+    fix-permissions $CONDA_DIR && \
+    fix-permissions /home/$NB_USER
 
-RUN pip install --no-cache-dir --timeout 15000 -r requirements.txt
+# COPY detector_de_cola.ipynb .
