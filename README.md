@@ -2,6 +2,12 @@
 
 ## Acesse o [app](https://mybinder.org/v2/gh/projeto-de-algoritmos/Grafos1_Joao_Lucas_Leonardo_Miranda/main?urlpath=%2Fvoila%2Frender%2Fdetector_de_cola_app.ipynb) ou o [notebook](https://mybinder.org/v2/gh/projeto-de-algoritmos/Grafos1_Joao_Lucas_Leonardo_Miranda/main?filepath=detector_de_cola_notebook.ipynb).
 
+## References
+
+Jupyter et al., "Binder 2.0 - Reproducible, Interactive, Sharable
+Environments for Science at Scale." Proceedings of the 17th Python
+in Science Conference. 2018. doi://10.25080/Majora-4af1f417-011
+
 @inproceedings{reimers-2019-sentence-bert,
     title = "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
     author = "Reimers, Nils and Gurevych, Iryna",
