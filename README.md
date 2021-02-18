@@ -1,6 +1,6 @@
 # Grafos1_Joao_Lucas_Leonardo_Miranda
 
-## Clique na badge e acesse o app: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/projeto-de-algoritmos/Grafos1_Joao_Lucas_Leonardo_Miranda/main?filepath=detector_de_cola.ipynb)
+## Clique na badge e acesse o app: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/projeto-de-algoritmos/Grafos1_Joao_Lucas_Leonardo_Miranda/main?filepath=detector_de_cola_app.ipynb)
 
 @inproceedings{reimers-2019-sentence-bert,
     title = "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
