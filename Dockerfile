@@ -11,4 +11,4 @@ RUN pip install --default-timeout=15000 --requirement /tmp/requirements.txt && \
     fix-permissions /home/$NB_USER
 
 COPY detector_de_cola.py .
-COPY detector_de_cola_app.ipynb .
+COPY detector_de_cola.ipynb .
