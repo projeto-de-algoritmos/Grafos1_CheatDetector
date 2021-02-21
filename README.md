@@ -18,7 +18,7 @@ The cheat detector works using text similarity. Once multiple exams are uploaded
 ![Cheat Detector App Gif](assets/cheat_detector_app_gif.gif)
 
 ## Video (brazilian portuguese)
-<video width="320" height="240" controls>
+<video width="1920" height="1080" controls>
   <source src="assets/cheat_detector_app_video.mp4" type="video/mp4">
 </video>
 
