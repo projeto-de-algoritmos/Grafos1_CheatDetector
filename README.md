@@ -34,7 +34,7 @@ Answer to question 2
 Answer to question 3
 ```
 
-Here's an [unzipped folder](https://github.com/projeto-de-algoritmos/Grafo1_Joao_Lucas_Leonardo_Miranda/blob/main/mock_data/prova_1) example.
+Here's an [unzipped folder](https://github.com/projeto-de-algoritmos/Grafo1_Joao_Lucas_Leonardo_Miranda/blob/main/mock_data/prova_2) example.
 
 
 ## References
