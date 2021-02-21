@@ -14,9 +14,11 @@ Similarity-based cheat detector for written exams with multiple questions.
 The cheat detector works using text similarity. Once multiple exams are uploaded, the detector analyzes each question from all exams and compares them, finding the degree of similarity between student responses, thus creating a similarity matrix that is analogous to an adjacency matrix and so using it to draw a graph that connects students. At the edges there is a percentage of similarity between the vertex students' exams.
 
 
-## Gif
-![Cheat Detector App Gif](cheat_detector_app_gif.gif)
+## App Gif
+![Cheat Detector App Gif](assets/cheat_detector_app_gif.gif)
 
+## Video (pt-br, [download link](https://raw.githubusercontent.com/projeto-de-algoritmos/Grafos1_CheatDetector/refactor/assets/cheat_detector_app_video.mp4))
+[![](assets/cheat_detector_app_video_splash_screen.png)](https://youtu.be/LVv2pTIqSpo)
 
 ## How to run
 **Language**: Python.<br>
