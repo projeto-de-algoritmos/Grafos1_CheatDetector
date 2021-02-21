@@ -12,3 +12,6 @@ RUN pip install --default-timeout=15000 --requirement /tmp/requirements.txt && \
 
 COPY detector_de_cola.py .
 COPY detector_de_cola.ipynb .
+
+# cache transformer model in the docker image
+RUN python -c "import detector_de_cola; d=detector_de_cola.DetectorDeCola()"

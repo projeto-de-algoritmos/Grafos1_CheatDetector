@@ -1,0 +1,5 @@
+Operação de verificar duas todas as arestas é o(2m+n)
+
+Espaço é de n + m com mudanças aleatórias pra ver a taxa de similaridade
+
+Coplexidade da função de verificação de arestas é impossível de se determinar uma vez que eu eu não to afim de verificar

@@ -1,0 +1,5 @@
+Divide o grafo em listas encadeadas
+
+Espaço é de m + n
+
+Complexidade da função de verificação de arestas é o(d(v))
