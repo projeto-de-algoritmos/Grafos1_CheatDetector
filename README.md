@@ -23,7 +23,7 @@ The cheat detector works using text similarity. Once multiple exams are uploaded
 ## How to run
 **Language**: Python.<br>
 **Frameworks**: SentenceTransformers; PyTorch; scikit-learn; Jupyter Voilà; BinderHub.<br>
-Access the [app](https://mybinder.org/v2/gh/projeto-de-algoritmos/Grafos1_Joao_Lucas_Leonardo_Miranda/main?urlpath=%2Fvoila%2Frender%2Fdetector_de_cola.ipynb) or the [notebook](https://mybinder.org/v2/gh/projeto-de-algoritmos/Grafos1_Joao_Lucas_Leonardo_Miranda/main?filepath=detector_de_cola.ipynb) with the BinderHub server.
+Access the [app](https://mybinder.org/v2/gh/projeto-de-algoritmos/Grafos1_CheatDetector/main?urlpath=%2Fvoila%2Frender%2Fcheat_detector.ipynb) or the [notebook](https://mybinder.org/v2/gh/projeto-de-algoritmos/Grafos1_CheatDetector/main?filepath=cheat_detector.ipynb) with the BinderHub server.
 
 ## How to use
 For the correct functioning of the cheat detector, it is necessary to send a zip file that contains the exam of each student. Each exam should be text file (.txt) in the following format. Don't forget the blank line between each question answer.
@@ -36,7 +36,7 @@ Answer to question 2
 Answer to question 3
 ```
 
-Here's an [unzipped folder](https://github.com/projeto-de-algoritmos/Grafo1_Joao_Lucas_Leonardo_Miranda/blob/main/mock_data/prova_2) example.
+Here's an [unzipped folder](https://github.com/projeto-de-algoritmos/Grafos1_CheatDetector/tree/main/mock_data/prova_2) example.
 
 
 ## References

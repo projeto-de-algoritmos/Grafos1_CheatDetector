@@ -10,8 +10,9 @@ RUN pip install --default-timeout=15000 --requirement /tmp/requirements.txt && \
     fix-permissions $CONDA_DIR && \
     fix-permissions /home/$NB_USER
 
-COPY detector_de_cola.py .
-COPY detector_de_cola.ipynb .
+COPY cheat_detector cheat_detector
+COPY cheat_detector.ipynb .
 
-# cache transformer model in the docker image
-RUN python -c "import detector_de_cola; d=detector_de_cola.DetectorDeCola()"
+# cache model in the docker image
+RUN python -c "from cheat_detector.model import TextSimilarityModel; m = TextSimilarityModel()"
+
